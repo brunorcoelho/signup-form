@@ -16,3 +16,21 @@
   background-repeat: no-repeat;
   width: 40vw;
 }
+
+.banner {
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.banner-icon img {
+  width: 7vw;
+}
+
+.banner-text h1 {
+  font-size: 4vw;
+}
