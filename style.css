@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+em {
+  font-style: italic;
+}
+
 .flex-container {
   display: flex;
   height: 100vh;
@@ -33,4 +37,23 @@
 
 .banner-text h1 {
   font-size: 4vw;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  gap: 30px;
+}
+
+.top-disclaimer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.top-disclaimer p {
+  font-weight: 600;
+  font-size: 1.7rem;
 }
