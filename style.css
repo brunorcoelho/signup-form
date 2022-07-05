@@ -43,7 +43,6 @@ em {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 30px;
   gap: 30px;
 }
 
@@ -51,9 +50,46 @@ em {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding-left: 30px;
 }
 
 .top-disclaimer p {
-  font-weight: 600;
-  font-size: 1.7rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.mid-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 5px 5px 21px -3px rgba(0, 0, 0, 0.57);
+  padding-left: 30px;
+}
+
+.form-title h1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+input,
+label {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.input {
+  margin: 30px 60px 30px 0px;
+}
+
+.bottom-signup {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
