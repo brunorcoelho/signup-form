@@ -4,7 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Signup Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="flex-container">
+      <div class="left">
+        <div class="banner">
+          <div class="banner-icon">
+            <img src="icon.png" alt="odin icon" />
+          </div>
+          <div class="banner-text">
+            <h1>Odin</h1>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="top-disclaimer">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize you deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="mid-form">
+          <div class="form-title"><h1>Let's do this!</h1></div>
+          <div class="form">
+            <form action="" id="form">
+              <div class="first-name">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" required />
+              </div>
+              <div class="last-name">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required />
+              </div>
+              <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="phone">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required />
+              </div>
+              <div class="password">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required />
+              </div>
+              <div class="confirm-password">
+                <label for="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                  required
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bottom-signup">
+          <div class="signup-button">
+            <button type="submit" form="form">Create Account</button>
+          </div>
+          <div class="login">
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
